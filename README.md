@@ -1,2 +1,2 @@
-This is an ecommerce web application buld by oceandigit february 2019 batch
-This also contain the Database Sql of the project
+This is an ecommerce web application build by oceandigit  code accademy student february 2019 class
+This also contain the Database SQL of the project
