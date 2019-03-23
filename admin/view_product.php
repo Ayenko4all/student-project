@@ -88,7 +88,7 @@
 
 
                       <td>
-                      <a href="view_product.php?featured=<?=(($row['featured'] == 0)?'1':'0');?>&id=<?=$row['product_id'];?>" class="btn btn-xs btn-default "><span class="glyphicon glyphicon-<?=(($row['featured'] ==1)?'minus':'plus');?>"></span><!--  -->
+                      <a href="view_product.php?featured=<?=(($row['featured'] == 0)?'1':'0');?>&id=<?=$row['product_id'];?>" class="btn btn-xs btn-default "><span class="glyphicon glyphicon-<?=(($row['featured'] ==1)?'minus':'plus');?>"></span>
 				                  </a>&nbsp <?=(($row['featured'] == 1)?'Featured Product':'');?>
                       </td>
 
@@ -96,7 +96,7 @@
                         <div class="btn-group">
                           <a class="btn btn-primary" title="View more info" href="view=<?=$product_id?>"><i class="icon_info_alt" data-toggle="modal" data-target="#exampleModal"></i></a>
                           <a class="btn btn-default" title="Edit product" href="edit_product.php?edit=<?=$product_id?>"><i class="icon_pencil-edit_alt"></i></a> 
-                          <a class="btn" title="Add product images" href="add_product_images.php?images=<?=$product_id?>"><i class="icon_pencil-edit_alt"></i></a>                
+                          <a class="btn btn-secondary" title="Add product images" href="add_product_images.php?images=<?=$product_id?>"><i class="icon_pencil-edit_alt"></i></a>                
                          
                           <a class="btn btn-success" title="Add Product Attribute" href="product_attributes.php?attributes=<?=$product_id?>"><i class="icon_plus"></i></a>
                           <a class="btn btn-danger" title="Delete Product" href="delete/delete_product.php?delete=<?=$product_id?>"><i class="icon_close_alt2"></i></a>
