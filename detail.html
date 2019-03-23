@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="includes/css/bootstrap.min.css">
+    <link rel="stylesheet" href="includes/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Happy Store</title>
+</head>
+<body>
+   
+    <!-- Navbar Section -->
+    <section id="navborder">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top ">
+                <a class="navbar-brand" href="#"><h1 class="text-primary">HAPPY<span class="text-danger">STORE</span></h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto" id="mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="store.html">STORE</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CATEGORIES
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">PHONES&LAPTOPS</a>
+                        <a class="dropdown-item" href="#">MENS</a>
+                        <a class="dropdown-item" href="#">WOMENS</a>
+                        <a class="dropdown-item" href="#">KIDS</a>
+                        <a class="dropdown-item" href="#">OTHERS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                  </ul>
+
+                  
+                    
+                </div>
+                <ul class="navbar-nav mr-auto" id="mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link pr-5" href="cart.html"> <span id="cart-red" class="fa fa-cart-plus"></span>CART </a>
+                    </li>
+                  </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
+                </form>
+              </div>
+            </nav> 
+        </div>
+    </section>
+    <!-- Navbar End Here -->
+
+   <!-- Main Section -->
+
+   <section id="detailmainsection" class="">
+    <div class="container">
+        <div class="col-md-12">
+          <h4 id="latestproduct">Product Detail</h4>
+            <div class="row">
+                <div class="col-md-8" id="mainbar">
+                    <div class="col-md-5" id="big-img" class="img-fluid" >
+                        <img src="includes/images/product/clothes/product12.jpg" alt="" srcset="">
+                    </div>
+                    <div class="col-md-2" id="detail-img">
+                        <img  src="includes/images/product/clothes/product12.jpg"  alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-4" id="mainbar">
+                    <div>
+                        <h6>Title</h6>
+                        <p>Cloth</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                          <h6>Price</h6>
+                        <p class="text-danger">₦100.99</p>
+                        </div>
+                        <div class="col-md-3">
+                          <h6>Qty</h6>
+                          <input type="number" name="" id="" style="width: 50px;">
+                        </div>
+                    </div>
+                     <div class="mb-2">
+                        <h6>Size</h6>
+                        <input type="radio" value="small" name="size">small|
+                        <input type="radio" value="medium" name="size">medium|
+                       <input type="radio" value="large" name="size"> large|
+                       <input type="radio" value="large" name="size"> Ex-large
+                    </div>
+                     <div>
+                        <h6>Description</h6>
+                       <p>elit. Culpa veritatis numquam nisi voluptate? Est, rem! Veniam provident eum blanditiis, 
+                           quas sunt iste at distinctio officia ut amet eligendi aut fugiat?</p>
+                    </div>
+                    <div class="mt-4" id="btn-btn">
+                      <form action="">
+                        <a href="cart.html" class='btn-btn-danger'><span class="fa fa-cart-plus"></span> ADD TO CART</a>
+                      </form>
+                       
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+      
+    </div>
+  </section>
+  <section class="mt-5">
+      <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#detail" role="tab" aria-controls="home"
+                        aria-selected="true">Detail description</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#review" role="tab" aria-controls="profile"
+                        aria-selected="false">Reviews</a>
+                    </li>
+                    
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="detail" role="tabpanel" aria-labelledby="home-tab">Raw denim you Reprehenderit butcher retro
+                      keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip
+                      placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi
+                      qui.
+                    </div>
+                    <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="profile-tab"> 
+                      <div class="container">
+                        <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-6 mt-5">
+                            <form action="">
+                                <h4>Add A review</h4>
+                              <div class="form-group">
+                                <input type="email" name="" placeholder="Enter Your name" class="form-control">
+                              </div>
+                              <div>
+                                  <h3>Your Rating</h3>
+                                  <span class="fa fa-star"></span>
+                                  <span class="fa fa-star"></span>
+                                  <span class="fa fa-star"></span>
+                                  <span class="fa fa-star"></span>
+                              </div>
+                              <div class="form-group">
+                                <textarea name="" id="" cols="30" rows="10"  placeholder="Enter Your message" class="form-control"></textarea>
+                              </div>
+                              <input type="button" value="Submit" class="btn btn-secondary">
+                            </form>
+                          </div>
+                          <div class="col-md-6 mt-5">
+                              <h4>2 Reviews From </h4>
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <span class="fa fa-star"></span>
+                                      <span class="fa fa-star"></span>
+                                      <span class="fa fa-star"></span>
+                                      <span class="fa fa-star"></span>
+                                      <span class="fa fa-star-empty"></span>
+                                      Anonymous
+                                      <span class="pull-right">10 days ago</span>
+                                      <p>This product was great in terms of quality. I would definitely buy another!</p>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      
+                        
+                    </div>
+                   
+                  </div>
+      </div>
+  </section>
+
+<!-- Main Section End Here -->
+
+ <!-- Footer Section -->
+ <section class="footer">
+  <footer>
+      <div class="col-md-12">
+          <div class="row">
+              <div class="col-md-4" id="social-link">
+                      <p>facebook</p>
+                      <p>Tweeter</p>
+                      <p>Instagram</p>
+                  </div>
+             <div class="col-md-4" id="copyright">
+                 <p class="">EMAIL SUPPORT: <span>help@happy.com</span> </p>
+                 <P>PHONE NUMBER: <span>09030448824</span></P>
+                 <p class="text-dark">Happy Store, Copyright 2019 All Right Reserve</p>
+              </div>
+
+              <div class="col-md-4" id="newletter">
+                  <h1>Subscribe To Our Newsletter</h1>
+                  <form action="">
+                      <input type="email" placeholder="Enter Email">
+                      <button type="submit" class="button_1">Subscribe</button>
+                  </form>
+              </div> 
+          </div>
+          
+      </div>
+  </footer>
+</section>
+<!-- Footer Section End Here -->
+    
+
+    <script src="includes/js/jquery-3.3.1.min.js"></script>
+    <script src="includes/js/bootstrap.min.js"></script>
+</body>
+</html>
